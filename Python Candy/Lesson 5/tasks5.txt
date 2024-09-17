@@ -1,0 +1,17 @@
+1)len()
+1)yeni bir dəyişən qeyd edin və dəyəri olaraq bir string ifadə, mətn yazın
+2)başqa bir dəyişən yaradın və onu yuxarıdaki dəyişənə bərabər edin. Stringin uzunluğunu len() funksiyası ilə yazın
+3)print("Stringin uzunluğu:", length_of_string)  # Çıktı: Stringin uzunluğu: 13
+
+2)[start:stop:step]
+Bir string yaradaq, variable
+7. indeksdən başla, 18. indeksə qədər , 2 addımla davam et
+nəticəni çap et
+
+
+Concatenated
+# İki string oluşturalım
+string1 = "Python "
+string2 = "Programlama"
+
+

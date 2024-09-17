@@ -1,0 +1,8 @@
+Task 1 (sadəcə print daxilində)
+1. print ilə bir kuplet şeir çap edin
+2. şeirin nöqtə və vergüllərini 'end=' və 'sep=' ilə işləyin, "\n" ilede alt-alta qoyarsan
+
+Task 2 (varible(deyisen) və print)
+1. 'name' variable-ı yaradın, qarşısına adınızı qeyd edin
+2. 'surname' variable-ı yaradın, qarşısına soyadınızı qeyd edin
+3. print ilə name və surname-i çap edin, elə edinki ad və soyad arasında  boşluq olsun

@@ -1,0 +1,921 @@
+Java aralıq imtahanı - 1
+
+1. What file extensions are commonly used for Java source code and compiled Java classes?
+
+Java source kodu və compiled Java class-lar üçün adətən hansı fayl uzantılarından istifadə olunur?
+
+4 puan (yazıları silinməlidir)
+.java, .class
+.src, .bin
+.java, .exe
+.src, .class
+2. Which of the following is the correct way to write a simple "Hello, World!" program in Java?
+
+Aşağıdakılardan hansı yolla Java-da "Salam, Dünya!" yazmaq olar?
+4 puan
+`print("Hello, World!");`
+`System.out.println("Hello, World!");`
+`console.log("Hello, World!");`
+`printLn("Hello, World!");`
+3. In Java, what is used to add comments to your code?
+
+Java-da kodunuza “comment” əlavə etmək üçün hansından istifadə olunur?
+4 puan
+/*
+# and ##
+-- and /* */
+// and /*  */
+4. Which data type is used to store whole numbers in Java?
+
+Java-da tam ədədləri saxlamaq üçün hansı data tiplərdən istifadə olunur?
+4 puan
+double
+float
+int
+char
+5. Which operator is used to increment a variable by 1 in Java?
+
+Java-da dəyişəni 1 vahid artırmaq üçün hansı operatordan istifadə olunur?
+4 puan
+++
+--
++=
+*=
+6. What Java class is commonly used to take input from the user?
+
+İstifadəçidən məlumat almaq üçün hansı Java sinfindən istifadə olunur?
+4 puan
+InputScanner
+ConsoleReader
+Scanner
+UserInput
+7. How do you print output to the console in Java?
+Java-da nəticəni konsola necə çap edirsiniz?
+4 puan
+console.print()
+System.out.print()
+print.console()
+System.println()
+8. In Java, which statement is used for conditional execution?
+
+Java-da şərti icra etmək üçün hansı ifadədən istifadə olunur?
+
+4 puan
+for
+switch
+if-else
+while
+9. Which control structure in Java is used for multiple choices based on the value of an expression?
+
+Java-da hansı idarəetmə strukturu ifadənin dəyərinə əsaslanan çoxsaylı seçimlər üçün istifadə olunur?
+
+4 puan
+if-else
+while
+for
+switch-case
+10. Which loop in Java is used when you want to execute a block of code at least once?
+Kod blokunu ən azı bir dəfə  icra etmək istədiyimiz zaman Java-da hansı loop istifadə olunur?
+4 puan
+for
+while
+do-while
+switch
+11. What keyword is used to exit a loop prematurely in Java?
+Java-da dövrədən vaxtından əvvəl çıxmaq üçün hansı açar sözdən istifadə olunur?
+4 puan
+exit
+stop
+break
+continue
+12. How do you declare an array in Java?
+Java-da array necə təyin olunur?
+4 puan
+int arrayName;
+arrayName = new int[];
+int[] arrayName;
+arrayName[] = new int;
+13. In Java, how do you initialize an array with values?
+Java-da dəyərləri ilə birlikdə Array necə təyin olunur?
+4 puan
+arrayName = {1, 2, 3};
+arrayName = new int[3];
+arrayName(1, 2, 3);
+arrayName[1, 2, 3];
+14. What is a class in Java?
+Java-da Class nədir?
+4 puan
+A template for creating objects. -Obyektlərin yaradılması üçün şablon
+A type of variable. -Dəyişən növü
+A mathematical function. -Riyazi funksiya
+A data structure. -Data struktur
+15. What is an object in Java?
+Java-da Obyekt nədir?
+4 puan
+A method in a class.  - Class-ın metodudur
+A variable in a method. - Metodun daxilindəki dəyişəndir
+An instance of a class. - Class-ın nümunəsidir
+A class definition. - Class-ın tərifi
+16. Which keyword is used to declare a method that does not return any value in Java?
+Java-da heç bir dəyəri qaytarmayan metodu elan etmək üçün hansı açar sözdən istifadə olunur?
+4 puan
+void
+int
+return
+function
+17. In Java, what is the return type of a method that returns an integer value?
+Java-da tam ədəd qaytaran metodu seçin:
+4 puan
+int
+void
+return
+boolean
+18. What are fields in Java?
+Java-da fields nədir?
+4 puan
+Variables defined within a method.  -Metod daxilində təyin edilmiş dəyişənlər.
+Local variables.  -Lokal dəyişənlər
+Variables defined within a class.  -Sinif daxilində təyin olunan dəyişən
+Global variables.  -Qlobal dəyişən
+19. What is the difference between primitive and reference types in Java?
+Java-da Primitiv və Reference type-lar arasında fərq nədir?
+4 puan
+Primitive types are objects, while reference types are basic data types.  -Primitiv tiplər obyektlər, istinad tipləri isə əsas məlumat növləridir.
+Primitive types are immutable, while reference types are mutable.  -Primitiv tiplər dəyişməz, Reference tipləri isə dəyişkəndir.
+Primitive types store data directly, while reference types store references to objects.  -Primitiv növlər məlumatları birbaşa saxlayır, Reference tipləri isə obyektlərə istinadları saxlayır.
+Primitive types can be null, while reference types cannot.  -Primitiv tiplər boş ola bilər, reference tiplər isə yox.
+20. Which of the following is a primitive data type in Java?
+Bunlardan hansı Java-da primitiv data tipidir?
+4 puan
+String
+double
+ArrayList
+Date
+21. How do you declare a single-line comment in Java?
+Java-da tək sətirlik "comment" necə yazılır?
+4 puan
+/** This is a comment */
+/* This is a comment */
+// This is a comment
+-- This is a comment
+22. What is the purpose of the "new" keyword in Java?
+"new" açar sözünün Java-dakı funksiyası nədir?
+4 puan
+To create a new instance of a class.  -Class-a yeni nümunə
+To delete objects from memory.  -Obyektləri yaddaşdan silmək
+To declare a new variable.  -Yeni dəyişən təyin etmək
+To return a value from a method.  -Metoddan dəyişən qaytarmaq
+23. What is the primary use of the "continue" statement in Java?
+Java-da "continue" ifadəsinin əsas istifadə məqsədi nədir?
+4 puan
+To exit a loop prematurely.  -loopdan həmişəlik çıxış
+To skip the current iteration and continue with the next.  -icrada olan kod blokunu keçib, digər kodun icrasına başlamaq
+To break out of a switch-case statement.  - switch-case ifadəsindən çıxış üçün
+To execute a block of code at least once.  -Kod blokunu ən azı bir dəfə yerinə yetirmək üçün
+24. In Java, what is the purpose of the "else" statement in an "if-else" construct?
+Java-da “if-else” konstruksiyasında “else” ifadəsinin məqsədi nədir?
+4 puan
+To execute the code block unconditionally.  -Kod blokunu şərtsiz yerinə yetirmək üçün
+To provide an alternative code block when the condition is false.  -Şərt yanlış olduqda alternativ kod bloku təmin etmək
+To terminate the program.  -Proqramı dayandırmaq üçün
+To print debugging information.  -Xətanı düzəltmək məlumatını çap etmək üçün
+25. Which loop in Java is best suited for situations where you don't know the number of iterations in advance?
+
+Bunlardan hansı loop sayını əvvəlcədən bilmədiyimiz vəziyyətlər üçün daha uyğundur?
+
+4 puan
+for
+while
+foreach
+switch
+
+
+
+
+Java aralıq imtahanı - 2
+
+ 
+1. What is the root class for all Java classes?
+
+Bütün Java sinifləri üçün kök sinif hansıdır?
+
+4/4 (bunlar silinməldiir)
+Object
+ 
+Main
+Root
+Base
+ 
+2. Which method is used to represent the string representation of an object?
+
+Obyektin string təsvirini göstərmək üçün hansı methoddan istifadə olunur?
+0/4
+getString()
+toString()
+print()
+display()
+ 
+3. Where are local variables stored in Java during method execution?
+
+Metodun icrası zamanı Java-da lokal dəyişənlər harada saxlanılır?
+4/4
+Heap Space
+Option 2
+CPU Cache
+Stack Memory
+ 
+ 
+4. What is the purpose of a constructor in Java?
+Java-da konstruktorun məqsədi nədir?
+4/4
+To initialize static variables - Statik dəyişənləri işə salmaq üçün
+To perform mathematical operations - Riyazi əməliyyatları yerinə yetirmək üçün
+To create and initialize objects - Obyektləri yaratmaq və işə salmaq üçün
+ 
+To destroy objects - Obyektləri məhv etmək
+ 
+5. In Java, what does the "this" keyword refer to?
+
+Java-da “this” açar sözü nəyə istinad edir?
+
+4/4
+Current class
+ 
+Current object
+Current method
+Current package
+ 
+6. What is the significance of the "static" keyword in Java?
+Java-da “statik” açar sözünün əhəmiyyəti nədir?
+0/4
+It indicates a constant variable - Sabit dəyişəni göstərir
+ 
+It is used for dynamic memory allocation - Dinamik yaddaşın ayrılması üçün istifadə olunur
+It denotes a class-level variable or method - Bu, sinif səviyyəli dəyişəni və ya metodu ifadə edir
+It makes a variable non-accessible - Bu, dəyişəni əlçatmaz edir
+Doğru cevap
+It denotes a class-level variable or method - Bu, sinif səviyyəli dəyişəni və ya metodu ifadə edir
+ 
+7. What is responsible for automatically freeing up unused objects in Java?
+
+Java-da istifadə olunmayan obyektlərin avtomatik olaraq boşaldılmasına nə cavabdehdir?
+4/4
+Finalize method
+Garbage Collector
+ 
+Destructor
+Dispose method
+ 
+8. Which access modifier restricts access only within the same package?
+
+Hansı access modifier yalnız eyni paketdəki girişi məhdudlaşdırır?
+
+0/4
+public
+protected
+private
+ 
+default
+Doğru cevap
+default
+ 
+9. What is encapsulation in Java?
+
+Java-da inkapsulyasiya nədir?
+
+4/4
+Grouping variables of different data types - Müxtəlif data tiplərin qruplaşdırılması
+Wrapping data and methods into a single unit - Məlumatların və metodların bir hissəyə yığılması
+ 
+Accessing private methods from outside the class - Private metodlara sinifdən kənardan daxil olmaq
+Using abstract classes - Abstrakt siniflərdən istifadə
+ 
+10. In Java, which methods are used to compare objects for equality?
+
+Java-da obyektlərin bərabərliklərini müqayisə etmək üçün hansı üsullardan istifadə olunur?
+
+4/4
+compare() and isEqual()
+equals() and hashCode()
+ 
+same() and identical()
+checkEquality() and match()
+ 
+11. In Java, what does the "super" keyword refer to?
+
+Java-da "super" açar sözü nəyə istinad edir?
+
+4/4
+Next class in the hierarchy - İyerarxiyada növbəti sinif
+Current class - Cari sinif
+Previous class in the hierarchy - İerarxiyadakı əvvəlki sinif
+Parent class - Valideyn sinfi
+ 
+ 
+12. Which keyword prevents a method from being overridden in Java?
+
+Hansı açar söz Java-da metodun ləğv edilməsinə(override) mane olur?
+4/4
+prevent
+final
+ 
+nonoverride
+Sealed
+ 
+13. What is polymorphism in Java?
+
+Java-da polimorfizm nədir?
+
+0/4
+Ability to create multiple objects - Birdən çox obyekt yaratmaq bacarığı
+ 
+Ability to perform multiple tasks simultaneously - Birdən çox işi eyni vaxtda yerinə yetirmək bacarığı
+Ability to take different forms - Müxtəlif formaları qəbul etmək bacarığı
+Ability to execute multiple threads - Çoxlu mövzuları icra etmək bacarığı
+Doğru cevap
+Ability to take different forms - Müxtəlif formaları qəbul etmək bacarığı
+ 
+14. In Java, what is method overloading?
+
+Java-da metodun həddən artıq yüklənməsi (Overload) nədir?
+
+4/4
+Using the same method name with different return types - Fərqli qaytarma növləri ilə eyni metod adından istifadə
+Using the same method name within the same class - Eyni sinif daxilində eyni metod adından istifadə
+Using different method names with the same parameters - Eyni parametrlərə malik müxtəlif metod adlarından istifadə
+Using the same method name with different parameters - Fərqli parametrlərlə eyni metod adından istifadə
+ 
+ 
+15. What is the purpose of an abstract class in Java?
+
+Java-da abstrakt sinifinin məqsədi nədir?
+
+0/4
+To create objects directly - Birbaşa obyektlər yaratmaq üçün
+ 
+To provide a blueprint for other classes - Digər siniflər üçün plan təqdim etmək
+To implement multiple interfaces - Çox interfeysi həyata keçirmək üçün
+To declare final methods - final metodu elan etmək
+Doğru cevap
+To provide a blueprint for other classes - Digər siniflər üçün plan təqdim etmək
+ 
+16. Which keyword is used to declare an abstract method in Java?
+
+Java-da abstrakt metodu təyin etmək üçün hansı açar sözdən istifadə olunur?
+
+4/4
+abstract
+ 
+void
+interface
+Method
+ 
+17. What is the default implementation of the `equals` method in the Object class?
+
+Obyekt sinfində `equals` metodunun standart tətbiqi nədir?
+
+4/4
+Compares memory addresses - Yaddaş ünvanlarını müqayisə edir
+Compares object references - Obyekt istinadlarını müqayisə edir
+Compares object values - Obyekt dəyərlərini müqayisə edir
+ 
+Throws an exception - Exception verir
+ 
+18. What is the purpose of the `finalize` method in Java?
+
+Java-da `finalize` metodunun məqsədi nədir?
+
+4/4
+It is called when an object is garbage collected - Obyekt zibil yığılanda çağırılır
+ 
+It finalizes the class definition - O, sinif tərifini yekunlaşdırır
+It is used for exception handling - "exception"ların idarə edilməsi üçün istifadə olunur
+It releases memory explicitly - Yaddaşı sərbəst buraxır
+ 
+19. Which keyword is used to import a class from another package in Java?
+
+Java-da başqa paketdən sinif import etmək üçün hansı açar sözdən istifadə olunur?
+
+4/4
+use
+include
+import
+ 
+Require
+ 
+20. In encapsulation, what is the main advantage of using private access modifiers?
+
+
+İnkapsulyasiyada "private access" modifikatorlarından istifadənin əsas üstünlüyü nədir?
+
+4/4
+Improves performance - Performansı yaxşılaşdırır
+Enhances code readability - Kodun oxunuşunu artırır
+Prevents unauthorized access - İcazəsiz girişin qarşısını alır
+ 
+Enables method overloading - Metodun həddindən artıq yüklənməsini aktivləşdirir
+ 
+21. What is the purpose of the `hashCode` method in Java?
+
+Java-da `hashCode` metodunun məqsədi nədir?
+
+4/4
+Generates a unique identifier for an object - Obyekt üçün unikal identifikator yaradır
+Compares two objects for equality - İki obyektin bərabərliyini müqayisə edir
+Converts a string to an integer - "String"i "integer"ə çevirir
+Returns the memory address of an object - Obyektin yaddaş ünvanını qaytarır
+ 
+ 
+22. In Java, can a class extend multiple classes?
+
+Java-da bir sinif bir neçə sinfə bölünə bilərmi?
+
+0/4
+Yes
+ 
+No
+Depends on the compiler - Kompilyatordan asılıdır
+Only for abstract classes - Yalnız abstrakt dərslər üçün
+Doğru cevap
+No
+ 
+23. What is the significance of the `final` keyword for variables?
+
+`final` açar sözünün dəyişənlər üçün əhəmiyyəti nədir?
+
+0/4
+It makes the variable constant
+It allows the variable to be modified
+ 
+It makes the variable static
+It restricts the variable to primitive types
+Doğru cevap
+It makes the variable constant
+ 
+24. What is runtime polymorphism in Java?
+
+Java-da runtime polimorfizmi nədir?
+
+0/4
+Compile-time error checking
+Method overloading
+ 
+Method overriding
+Variable shadowing
+Doğru cevap
+Method overriding
+ 
+25. Can a method be overloaded by changing the return type?
+
+Qaytarma tipini (return type) dəyişdirməklə metodu həddən artıq yükləmək (overload) olarmı?
+
+0/4
+Yes
+No
+Depends on the method name
+Only for static methods
+ 
+Doğru cevap
+No
+
+
+
+JavaDMA001 aralıq imtahanı - 3
+
+1. What is the purpose of the "checked" and "unchecked" statements in exception handling?
+
+"checked" və "unchecked" açar sözlərinin xüsusiyyəti nədir?
+2/2
+They are not statements in exception handling. -Onlar exception handling üçün açar sözlər deyillər.
+Indicate whether an exception is expected or unexpected - "Exception"ın gözlənilən və ya gözlənilməyən olduğunu göstərir.
+ 
+Define custom exceptions - Xüsusi exceptionları təyin etmək.
+Control the flow of exception handling - Exception handling axışına nəzarət etmək.
+ 
+2. What is synchronization in Java?
+
+
+Java'da sinxronizasiya nədir?
+2/2
+Combining multiple threads into a single thread - Bir neçə threadı tək bir threada birləşdirmək.
+Ensuring only one thread accesses shared resources at a time - Yalnız bir thread ilə eyni anda paylaşılmış resurslara giriş etməyi təmin etmək.
+ 
+Coordinating the creation of threads - Threads yaratmağın koordinasiyası.
+Controlling thread priorities - Threads prioritetləşməsinə nəzarət etmək.
+ 
+3. Which class among String, StringBuilder, and StringBuffer is immutable?
+
+String, StringBuilder və StringBuffer arasında hansı sinif dəyişən immutable-dır?
+
+2/2
+String
+ 
+StringBuilder
+StringBuffer
+All of the above - Bunların hamısı
+ 
+4. What is the purpose of Enum in Java?
+
+
+
+Java'da Enum hansı məqsəd üçün istifadə olunur?
+
+2/2
+Define constants with a restricted set of values - Məhdud dəyərlərlə sabitləri təyin etmək.
+ 
+Represent floating-point numbers -Onluq kəsr ədədləri təmsil etmək.
+Create aliases for class name - class adlarına yeni ləqəb yaratmaq
+Implement multiple inheritance - multiple inheritance həyata keçirmək
+ 
+5. Which of the following is a wrapper class for primitive data types in Java?
+
+
+
+Java'da primitiv data tip üçün birbiri ilə əlaqələndirilmiş class hansıdır?
+
+2/2
+BasicWrapper
+DataWrapper
+ObjectWrapper
+Integer, Double, Boolean, etc.
+ 
+ 
+6. What is autoboxing and unboxing in Java?
+
+
+Java'da autoboxing və unboxing nədir?
+2/2
+Converting primitive types to objects and vice versa automatically - Primitiv tipləri obyektlərə və tam əksinə avtomatik çevirmə.
+ 
+Boxing and unboxing objects manually - Obyektləri manual olaraq bağlamaq və açmaq.
+Converting objects to primitive types - - Obyektləri primitiv tipə çevirmək.
+Converting arrays to collections - Array-ləri collections-a çevirmək
+ 
+7. What is the purpose of generics in Java?
+
+
+
+Java'da generics hansı məqsədlə istifadə olunur?
+
+0/2
+Improving code readability - Kodun oxunabilirliyini artırmaq.
+ 
+Enforcing type safety at compile-time - Kompilyasiya vaxtında tip təhlükəsizliyini təmin etmək.
+Simplifying code syntax - Kod sintaksisini asanlaşdırmaq.
+Allowing dynamic typing - Dinamik tipizasiyaya icazə verilməsi.
+Doğru cevap
+Enforcing type safety at compile-time - Kompilyasiya vaxtında tip təhlükəsizliyini təmin etmək.
+ 
+8. Which interface is not a part of the Java Collections Framework?
+
+
+
+Java Collections Framework-ün bir hissəsi olmayan interfeys hansıdır?
+
+2/2
+Set
+List
+Array
+Map
+ 
+ 
+9. What is the primary difference between ArrayList and LinkedList in Java?
+
+
+Java'da ArrayList və LinkedList arasındakı əsas fərq nədir?
+0/2
+ArrayList is synchronized, while LinkedList is not -- ArrayList sinxronizasiyalıdır, LinkedList isə əksinə.
+LinkedList allows fast random access, while ArrayList does not - LinkedList sürətli təsadüfi girişə icazə verir, ArrayList isə əksinə.
+ 
+ArrayList uses an underlying array, while LinkedList uses a doubly-linked list - ArrayList tərəfindən istifadə olunan underlying array-dır, əksinə LinkedList doubly-linked siyahı istifadə edir.
+LinkedList is resizable, while ArrayList is not - LinkedList ölçüsü dəyişdirilə bilər, ArrayList isə dəyişdirilə bilməz.
+Doğru cevap
+ArrayList uses an underlying array, while LinkedList uses a doubly-linked list - ArrayList tərəfindən istifadə olunan underlying array-dır, əksinə LinkedList doubly-linked siyahı istifadə edir.
+ 
+10. What is the purpose of the lambda expression in Java?
+
+
+Java'da lambda ifadəsinin məqsədi nədir?
+0/2
+Defining anonymous classes - Naməlum sinifləri təyin etmək.
+Simplifying the syntax for writing anonymous classes - Naməlum sinifləri yazmaq üçün sintaksisi asanlaşdırmaq.
+Creating nested classes - Qoşulmuş siniflər yaratmaq
+Improving performance - Performansı artırmaq.
+ 
+Doğru cevap
+Simplifying the syntax for writing anonymous classes - Naməlum sinifləri yazmaq üçün sintaksisi asanlaşdırmaq.
+ 
+11. What does the var keyword do in Java?
+
+
+Java-da "var" açar sözü nə edir?
+0/2
+Declares a variable with a fixed value - Müəyyən bir dəyərə sahib dəyişəni elan edir.
+ 
+Declares an immutable variable - Immutable bir dəyişəni elan edir.
+Introduces local-variable type inference - Yerli-dəyişən tipi təxminini təqdim edir.
+Represents a null variable - null dəyişəni təmsil edir.
+Doğru cevap
+Introduces local-variable type inference - Yerli-dəyişən tipi təxminini təqdim edir.
+ 
+12. What is the purpose of the finalize() method in Java?
+
+
+Java-dakı finalize() metodunun məqsədi nədir?
+2/2
+It is used to finalize the implementation of a class - Sinifin implementasiyasını final etmək üçün istifadə olunur.
+It is called by the garbage collector before reclaiming an object - Garbage collector tərəfindən obyektin geri qaytarılmas
+ 
+It is used to handle exceptions during finalization - Finalizasiya zamanı istisnaları idarə etmək üçün istifadə olunur.
+It is called when an object is instantiated - Obyekt yaradıldıqda çağırılır.
+ 
+13. What is the significance of the 'this' keyword in Java? 
+ Java'da 'this' açar sözünün nə üçündür?
+2/2
+Refers to the parent class - parent classı göstərir
+Refers to the current instance of the class - Classın hazirki nümunəsini göstərir.
+ 
+Represents the current method - Cari metodu təmsil edir.
+Used to access static variables - Statik dəyişənlərə giriş etmək üçün istifadə olunur.
+ 
+14. What is the purpose of the break statement in Java?
+Java'da "break" ifadəsinin məqsədi nədir?
+
+2/2
+Terminates the current loop or switch statement - Cari dövrü və ya switch ifadəsini dayandırır.
+ 
+Skips the current iteration of the loop - Dövrün cari iterasiyasını ötürmək.
+Exits the entire program - Bütün proqramdan çıxmaq.
+Jumps to the specified label - Seçilən label-ə keçid edir.
+ 
+15. What is the purpose of the switch statement in Java?
+Java'da "switch" ifadəsinin məqsədi nədir?
+
+2/2
+To select a random case - Təsadüfi bir hal seçmək.
+To handle multiple conditions with a single control statement - Bir control statement ilə çoxlu şərtləri idarə etmək.
+ 
+To iterate over a collection - Collection üzərində iterasiya etmək.
+To break out of a loop - Dövrdən çıxmaq
+ 
+16. How is polymorphism achieved in Java?
+
+Java'da polimorfizm necə əldə edilir?
+
+0/2
+Through inheritance and method overloading - Miras alma (inheritance) və metod üstünlük etmə vasitəsilə.
+Through interfaces and abstract classes - Interfeyslər və abstrakt siniflər vasitəsilə.
+ 
+Through method overloading - Metod yüklənmə (method overloading) vasitəsilə.
+Through encapsulation - Enkapsulyasiya vasitəsilə.
+Doğru cevap
+Through inheritance and method overloading - Miras alma (inheritance) və metod üstünlük etmə vasitəsilə.
+ 
+17. What is the purpose of the 'finally' block in Java?
+
+Java'da 'finally' blokunun məqsədi nədir?
+
+2/2
+To catch exceptions - Exceptionları tutmaq
+To execute code whether an exception is thrown or not - exception atılsa da atılmasa da kodu icra etmək.
+ 
+To define custom exceptions - Xüsusi exceptionları təyin etmək.
+To handle checked exceptions - Yoxlanmış expectionları idarə etmək.
+ 
+18. Which keyword is used to declare an interface in Java?
+Java'da interfeys declare etmək üçün hansı açar söz istifadə olunur?
+
+0/2
+extends
+abstract
+implements
+ 
+interface
+Doğru cevap
+interface
+ 
+19. What is the purpose of the 'continue' statement in Java?
+Java'da "continue" ifadəsi nə üçündür?
+
+2/2
+Skips the rest of the loop and continues with the next iteration - Dövrün qalan hissəsini ötürür və növbəti iterasiyaya davam etdirir
+ 
+Breaks out of the loop - dövrdən çıxmaq üçün.
+Restarts the loop - dövrü yenidən başlatmaq üçün.
+Skips the current iteration and goes to the specified label - Mövcud itarasiyadan çıxar və xüsusi bir label-a gedər.
+ 
+20. What is the purpose of the 'break' statement in a switch block?
+Switch blokunda "break" ifadəsinin məqsədi nədir?
+
+2/2
+To end the current iteration of the loop - Dövrün hazırki iterasiyasını sonlandırmaq.
+To exit the entire program - Bütün proqramdan çıxmaq
+To exit the switch block - Switch blokundan çıxmaq
+ 
+To skip the current iteration of the loop - Dövrün hazırkı iterasiyasını atlamaq
+ 
+21. What is the purpose of the 'super()' constructor call in a subclass?
+Subclass da  "super()" ın cağırılmasının məqsədi nədir?
+2/2
+Calls the constructor of the superclass - Superclassın konstruktorunu çağırır.
+ 
+Calls the constructor of the current class - Cari classın konstruktorunu çağırır.
+Creates a new instance of the superclass - Superclassın yeni bir nümunəsini yaradır.
+Calls the default constructor of the superclass - Superclassın standart konstruktorunu çağırır.
+ 
+22. What is the purpose of the 'final' keyword in Java?
+
+Java'da 'final' açar sözünün məqsədi nədir?
+
+2/2
+Indicates that a variable cannot be modified - Dəyişənin dəyişdirilə bilmədiyini göstərir
+Marks a class as final and cannot be extended - Sinifi final və çoxalmayan kimi qeyd edir
+Prevents a method from being overridden - metodun üstələnməsinin qarşısını alır
+All of the above - Yuxarıdakıların hamısı
+ 
+ 
+23. What is the purpose of the 'extends' keyword in Java?
+
+Java'da "extends" açar sözünün məqsədi nədir?
+
+2/2
+Indicates that a class implements an interface - Sinifin bir interfeysi implement etdiyini göstərir.
+Indicates that a class is a subclass of another class - Sinifin başqa bir sinifin alt sinifi olduğunu göstərir.
+ 
+Marks a method as abstract - Metodu abstract kimi qeyd edir.
+Marks a class as abstract - Sinifi abstract kimi qeyd edir.
+ 
+24. What is the significance of the 'volatile' keyword in Java?
+
+Java'da 'volatile' açar sözünün əhəmiyyəti nədir?
+
+0/2
+Indicates that a variable cannot be modified - Dəyişilə bilməyən bir dəyişənin olduğunu göstərir.
+Ensures that a variable is thread-safe - Dəyişənin mövqeyini müstəqil təmin edir.
+Marks a variable as constant - Dəyişəni sabit olaraq qeyd edir.
+Prevents a variable from being optimized - Dəyişənin optimazisının qarşısını alır.
+ 
+Doğru cevap
+Ensures that a variable is thread-safe - Dəyişənin mövqeyini müstəqil təmin edir.
+ 
+25. In Java, what is the purpose of the 'try' block in exception handling?
+Java'da "exception handling" üçün 'try' blokunun məqsədi nədir?
+
+2/2
+To catch exceptions - Exceptions (istisnaları) tutmaq üçün
+To handle checked exceptions -Yoxlanmış istisnaları idarə etmək.
+To enclose code that might throw exceptions - İstisnalar yarada bilən kodu əhatə etmək.
+ 
+To create custom exceptions - Xüsusi istisnalar yaratmaq
+
+
+
+Java aralıq imtahanı - 4
+
+1. What is the primary role of a server in a network? - Şəbəkədə serverin əsas rolu nədir?
+Client communication - Müştəri ünsiyyəti
+Data storage - Məlumatların saxlanması
+Resource sharing - Resurs mübadiləsi
+Peripheral connection - Periferik əlaqə
+2. What is GIT used for in software development? - Proqram təminatının hazırlanmasında GİT nə üçün istifadə olunur?
+
+Database management - Verilənlər bazasının idarə edilməsi
+Version control - Versiyaya nəzarət
+Server configuration - Server konfiqurasiyası
+Code compilation - Kod tərtibi
+3. Which GIT command is used to create a new branch? - Yeni sahə yaratmaq üçün hansı GİT açarsözündən istifadə olunur?
+git branch
+git create
+git new
+git checkout
+4. What is the purpose of the git pull command? - Git pull əmrinin məqsədi nədir?
+
+Upload changes to the remote repository - Dəyişiklikləri uzaq depoya yükləmək
+Download changes from the remote repository - Uzaq depodan dəyişiklikləri endirin
+Create a new branch - Yeni sahə yaratmaq
+Merge branches locally - Filialları lokal olaraq birləşdirmək
+5. What does DML stand for in the context of databases? - DML verilənlər bazası kontekstində nəyi ifadə edir?
+
+Data Manipulation Language - Məlumatların Manipulyasiya Dili
+Database Management Language - Verilənlər Bazasının İdarəetmə Dili
+Data Modeling Language - Data Modelləşdirmə Dili
+Data Migration Language - Data Miqrasiya Dili
+6. Which statement is used to add a new column to an existing table in PostgreSQL? - PostgreSQL-də mövcud cədvələ yeni sütun əlavə etmək üçün hansı ifadədən istifadə olunur?
+
+ALTER TABLE
+MODIFY TABLE
+ADD COLUMN
+UPDATE TABLE
+7. What does the term "JOIN" in SQL refer to? - SQL-də “JOIN” termini nəyə istinad edir?
+
+Combining two or more tables based on related columns - Əlaqələndirilmiş sütunlar əsasında iki və ya daha çox cədvəlin birləşdirilməsi
+Creating a new table - Yeni cədvəlin yaradılması
+Deleting records from a table - Cədvəldən qeydlərin silinməsi
+Sorting records in a table - Cədvəldə qeydlərin çeşidlənməsi
+8. In PostgreSQL, what does "ROLLBACK" do? - PostgreSQL-də "ROLLBACK" nə edir?
+
+Save changes to the database - Dəyişiklikləri verilənlər bazasında qeyd etmək
+Undo changes made in the current transaction - Cari əməliyyatda edilən dəyişiklikləri ləğv etmək
+Commit changes to the database - Verilənlər bazasına dəyişiklikləri etmək
+Add new records to a table - Cədvəllərə yeni qeydlər əlavə edin
+9. Which HTTP method is used for retrieving data from a server? - Serverdən məlumatların alınması üçün hansı HTTP metodundan istifadə olunur?
+
+POST
+GET
+PUT
+DELETE
+10. In web development, what is the purpose of a session? - Veb inkişafında sessiyanın məqsədi nədir?
+
+Storing data on the client side - Müştəri tərəfində məlumatların saxlanması
+Managing user authentication - İstifadəçi autentifikasiyasını idarə etmək
+Tracking user behavior - İstifadəçi davranışının izlənməsi
+Caching web pages - Veb səhifələrin keşləşdirilməsi (saxlanılması)
+11. How are cookies typically stored on a user's system? - İstifadəçinin sistemində kukilər necə saxlanılır?
+
+In a server-side database - Server tərəfində verilənlər bazasında
+In the browser's local storage - Brauzerin lokal yaddaşında
+In a separate cookie server - Ayrı bir kuki serverində
+As text files on the user's device - İstifadəçinin cihazında mətn faylları kimi
+12. Which file in a Gradle project contains project configuration settings? - Gradle layihəsində hansı fayl layihənin konfiqurasiya parametrlərini özündə əks etrdirir?
+
+build.gradle
+settings.gradle
+config.gradle
+project.gradle
+13. What is the core concept of the Spring framework? - Spring framework-ün əsas konsepsiyası nədir?
+
+Object-oriented programming - Obyekt yönümlü proqramlaşdırma
+Inversion of Control (IoC) - Nəzarətin İnversiyasi (IoC)
+Design patterns - Dizayn nümunələri
+Aspect-oriented programming - Aspekt yönümlü proqramlaşdırma
+14. What does an IP address uniquely identify on a network? - Şəbəkədə IP ünvanı unikal olaraq nəyi müəyyənləşdirir?
+
+Software - Proqram təminatı
+Device - Cihaz
+Domain
+Protocol - Protokol
+15. In a URL, what does "www" typically represent? - URL-də “www” adətən nəyi təmsil edir?
+
+Web Widget
+World Wide Web
+Web Wireless
+Web Wavelength
+16. Which of the following is NOT a relational database management system (RDBMS)? - Aşağıdakılardan hansı əlaqəli verilənlər bazası idarəetmə sistemi (RDBMS) deyil?
+
+PostgreSQL
+MongoDB
+MySQL
+Oracle
+17. Which command is used to stage changes in Git before committing? - Git-də dəyişikliklər etmədən əvvəl hansı komandadan istifadə edilir?
+
+git add
+git stage
+git commit
+git push
+18. What does the command "git merge" do in Git? - Git-də “git merge” əmri nə edir?
+Create a new branch - Yeni sahə yaradır
+Delete a branch - Sahəni silir
+Combine changes from different branches - Müxtəlif filiallardan gələn dəyişiklikləri birləşdirir
+Push changes to the remote repository - Dəyişiklikləri uzaq depoya göndərir
+19. What is the purpose of the command "git clone"? - “git clone” əmrinin məqsədi nədir?
+
+Create a new Git repository - Yeni Git deposu yaratmaq
+Clone an existing Git repository - Mövcud Git repozitoriyasını klonlamaq
+Delete a Git repository - Git deposunu silin
+Merge branches in a repository - Depoda sahələri birləşdirmək
+20. In SQL, what does DDL stand for? - SQL-də DDL nə deməkdir?
+
+Data Definition Language - Məlumat Tərifi Dili
+Data Display Language - Məlumatların göstərilməsi dili
+Data Duplication Language - Məlumatların təkrarlanması dili
+Data Deletion Language - Məlumatların Silinmə Dili
+21. What is the result of a "LEFT JOIN" in SQL? - SQL-də “LEFT JOIN” nə ilə nəticələnir?
+
+Retrieves only common records between tables - Cədvəllər arasında yalnız ümumi qeydləri alır
+Retrieves all records from the left table and matching records from the right table - Sol cədvəldən bütün qeydləri və sağ cədvəldən uyğunlaşan qeydləri götürür
+Retrieves all records from both tables - Hər iki cədvəldən bütün qeydləri götürür
+Retrieves only unmatched records from the left table - Sol cədvəldən yalnız bənzərsiz qeydləri götürür
+22. How is session data typically stored on the server side? - Sessiya məlumatları adətən server tərəfində necə saxlanılır?
+
+In the browser's local storage - Brauzerin lokal yaddaşında
+In cookies - Kukilərdə
+In a server-side database - Server tərəfindəki data bazada
+In hidden form fields - Gizli forma sahələrində
+23. What information is stored in an HTTP cookie? - HTTP kukisində hansı məlumat saxlanılır?
+
+Session data - Sessiya məlumatları
+User credentials - İstifadəçi etimadnaməsi
+Website structure - Veb sayt quruluşu
+User preferences - İstifadəçi seçimləri
+24. Which Gradle task is used to build a project? - Layihə qurmaq üçün hansı Gradle tapşırığından istifadə olunur?
+
+gradle run
+gradle build
+gradle test
+gradle deploy
+25. What is the primary role of the Spring Boot framework? - Spring Boot çərçivəsinin əsas rolu nədir?
+
+Web application development - Veb ap inkişafı
+Mobile application development - Mobil proqram inkişafı
+Desktop application development - Masaüstü proqramların inkişafı
+Network protocol development - Şəbəkə protokolunun inkişafı

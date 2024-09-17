@@ -1,0 +1,31 @@
+Task 1: Boolean
+Bir ədəd müəyyən edilir
+Yeni bir dəyişəndə bu rəqəmin 10-dan böyük olub-olmadığı yoxlanılır.
+Əgər rəqəm 10-dan çox olarsa, nəticə True olaraq təyin edilsin;
+Deyilsə, nəticə False olaraq nəticə ekranda çap olunsun.
+
+Task 2: Assignment Operators
+1) Toplama
+x adlı dəyişən müəyyən edilir və 5 ilkin dəyəri təyin edilir
+
+Digər sətirdə x dəyişəninin mövcud qiyməti 3 artırılır
+
+Yenilənmiş x dəyişəninin dəyəri ekranda çap olunur
+2) Çıxma
+x adlı dəyişən müəyyən edilir və 10 ilkin dəyəri təyin edilir
+
+Digər sətirdə x dəyişəninin mövcud qiyməti 4 azalır
+
+Yenilənmiş x dəyişəninin dəyəri ekranda çap olunur
+3) Vurma
+x adlı dəyişən müəyyən edilir və 7 ilkin dəyəri təyin edilir
+
+Digər sətirdə x dəyişəninin mövcud qiyməti 2-yə vurulur
+
+Yenilənmiş x dəyişəninin dəyəri ekranda çap olunur
+4) Bölmə
+x adlı dəyişən müəyyən edilir və ilkin qiymət 20 təyin edilir
+
+Digər sətirdə x dəyişəninin mövcud qiyməti 4-ə bölünür
+
+Yenilənmiş x dəyişəninin dəyəri ekranda çap olunur

@@ -1,0 +1,161 @@
+List metods
+Sort List metods
+sort()
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort()
+print(thislist)
+
+sort(reverse = True) məntiqi
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort(key = str.lower)
+print(thislist)
+
+reverse()
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.reverse()
+print(thislist)
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort(key = str.lower)
+print(thislist)
+
+
+Join list
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+print(list1)
+
+
+
+Suallar:
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[-4:-1])
+
+thislist = ["apple", "banana", "cherry"]
+print(thislist[-1])
+
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "blackcurrant"
+print(thislist)
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+thislist[1:3] = ["blackcurrant", "watermelon"]
+print(thislist)
+
+
+Tuple Very type
+2 metod var
+thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+print(thistuple)
+
+tuple1 = ("abc", 34, True, 40, "male")
+tuple1 = ("apple", "banana", "cherry")
+tuple2 = (1, 5, 7, 9, 3)
+tuple3 = (True, False, False)
+
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[1])
+
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[2:5])
+
+tuple_2 = (1) -> int
+print(type(tuple_2))
+
+name, surname, age = ("Rustem","Efendiyev",27)
+# print(type(name,surname,age))
+print(type(age))
+print(name)
+var = name,surname,age
+print(type(var))
+
+Deyishmek
+name = ("Emin", "Enes")
+name[0] = "Enver"
+print(name)
+
+List daha çox RAM xercleyir, ancaq tuple xeyir
+import sys
+print(dir(sys))
+
+import sys
+# # print(dir(sys))
+
+# print(help(sys.getsizeof))
+#
+list_1 = [1,2,3,4,"rf"]
+tuple_1 =(1,2,3,4,"rf")
+print(sys.getsizeof(list_1))
+print(sys.getsizeof(tuple_1))
+#
+list_1 = [1,2,3,4,"rf"]
+tuple_1 =(1,2,3,4,"rf")
+print(dir(list_1))
+print("----------------------------------------------------------")
+print(dir(tuple_1))
+
+
+#tuple update -> list
+x = ("apple", "banana", "cherry")
+y = list(x)
+y[1] = "kiwi"
+x = tuple(y)
+
+print(x)
+
+thistuple = ("apple", "banana", "cherry")
+y = list(thistuple)
+y.append("orange")
+thistuple = tuple(y)
+
+thistuple = ("apple", "banana", "cherry")
+y = ("orange",)
+thistuple += y
+
+print(thistuple)
+
+
+
+fruits = ("apple", "banana", "cherry")
+
+(green, yellow, red) = fruits
+
+print(type(green))
+print(yellow)
+print(red)
+
+
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(green, yellow, *red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+
+
+
+Join Tuple
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
+
+tuple3 = tuple1 + tuple2
+print(tuple3)
+)
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+
+print(mytuple)
+
+
+birlesmis_isimler_ve = ", ".join(isimler[:-1]) + " ve " + isimler[-1]
+print("Birleştirilmiş isimler (ve ile):", birlesmis_isimler_ve)

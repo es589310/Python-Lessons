@@ -1,0 +1,107 @@
+SETTİNG
+
+ADD Settings
+add metod
+thisset.add("orange")
+
+print(thisset)
+
+update metod
+tropical = {"pineapple", "mango", "papaya"}
+mylist = ["kiwi", "orange"]
+
+thisset.update(tropical)
+print(thisset)
+
+REMOVE Settings
+remove metod və discard
+thisset = {"apple", "banana", "cherry"}
+
+thisset.remove("banana")
+# thisset.discard("banana") #throws xətası qaytarmır
+
+print(thisset)
+
+pop() metodu -> sırasız olduğu üçün istənilən elementi silmək olmur
+clear() metodu 
+
+
+Join Settings
+union() və update() 
+)
+set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+
+set3 = set1.union(set2)
+set3 = set1 | set2
+
+print(set3)
+)
+set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+set3 = {"John", "Elena"}
+set4 = {"apple", "bananas", "cherry"}
+
+myset = set1 | set2 | set3 |set4
+print(myset)
+
+İntersection metod -kəsişmə
+set1 = {"apple", "banana", "cherry"}
+set2 = {"google", "microsoft", "apple"}
+
+set3 = set1.intersection(set2)
+set3 = set1 & set2
+
+print(set3)
+)
+
+
+set1 = {"apple", 1,  "banana", 0, "cherry"}
+set2 = {False, "google", 1, "apple", 2, True}
+set3 = set1.intersection(set2)
+
+print(set3)
+
+
+difference() 
+set1 = {"apple", "banana", "cherry"}
+set2 = {"google", "microsoft", "apple"}
+
+set3 = set1.difference(set2)
+set3 = set1 - set2
+
+print(set3)
+
+symmetric_difference metodu
+set1 = {"apple", "banana", "cherry"}
+set2 = {"google", "microsoft", "apple"}
+
+set3 = set1.symmetric_difference(set2)
+set3 = set1 ^ set2
+
+
+print(set3)
+
+
+Settings Metods Link
+https://www.w3schools.com/python/python_sets_methods.asp
+
+
+
+DİCTİONARY
+
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+#   "year": 2020,
+  "colors": ["red", "white", "blue"]
+}
+
+# print(thisdict["brand"])
+# print(len(thisdict))
+print(thisdict)
+
+Qalan dərslər
+https://www.w3schools.com/python/python_dictionaries_access.asp
