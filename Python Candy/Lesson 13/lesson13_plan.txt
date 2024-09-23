@@ -1,0 +1,73 @@
+Nümunələr
+1)ad və yaş, seçkilərdə iştirak edə bilsin
+2)fənn üzrə bal və onun hərf qarşılığı(else içində 2 şərt qoş)
+3)user/password əməliyyatı
+
+
+
+x = 6
+y = 10
+z = 16
+
+if x > 0 and (y > 0 or z < 20) and not (x == 5 and z == 15):
+    print("x 0-dan böyükdür və y 0-dan böyükdür və ya z 20-dən balacadır və x 5 deyil və ya z 15 deyil.")")
+else:
+    print(False)
+
+
+Git Hub
+User account açmaq
+Visual Studio Code ilə layihələri calaşdırmaq
+terminalda
+layiheni yaradarkən:
+    -git init -> layiheni initializing edir
+    -git add . -> layiheni paketleyir
+    -git commit -m "Her hansi bir soz"
+    -git branch -M master
+    -git remote add origin https://github.com/es589310/Python-Lessons.git
+    -git push -u origin master
+
+eyni layihə içində yeni kod sətirlərini push etmək:
+    -git commit -m "Her hansi bir soz"
+    -git push -u origin master
+layiheni kimlər görə bilər?
+
+
+
+GitHub layihə yaratma:
+https://www.youtube.com/watch?v=4dkNn93DIx4
+
+
+
+
+
+
+
+
+
+# name = input("Adınızı qeyd edin: ")
+# age = int(input("Yaşnızı qeyd edin: "))
+# age1 = age
+
+# if age1 >= 18:
+#     print("Siz seçkilərdə iştirak edə bilərsiniz!")
+# else:
+#     print("Siz seçkilərdə iştirak edə bilməzsiniz!")
+
+
+
+
+# defuser = "aydan13"
+# defpassword = "aydan12345"
+
+# user_input = input("User-ni daxil et: ")
+# pass_input = input("Shifreni daxil et: ")
+
+# if ((defuser == user_input) and (defpassword == pass_input)): #and
+#     print("Welcome!")
+# elif ((defuser != user_input) and (defpassword == pass_input)):
+#     print("Siz istifadeci adini sehv yazmisiz!")
+# elif ((defuser == user_input) and (defpassword != pass_input)):
+#     print("Siz shifreni sehv yazmisiz!")
+# else:
+#     print("Bele bir istifadeci movcud deyil!")

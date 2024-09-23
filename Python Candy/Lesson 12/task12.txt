@@ -1,0 +1,18 @@
+Task 1 (if-elif-else)
+x dəyişəninə input-la rəqəm təyin edilsin:
+    x sıfırdan böyükdürsə, "x müsbətdir" yazsın
+    x sıfıra bərabərdirsə, "x sıfırdır" yazsın
+    x sıfırdan kiçikdirsə, "x mənfidir" yazsın.
+
+Task 2
+z dəyişəni 7-yə, a dəyişəni isə 14-ə bərabərdir:
+    z 10-dan azdır və a-da 10-dan kiçikdirsə, "Həm z, həm də a 10-dan kiçikdir" çap edilsin (and)
+    z 10-dan azdırsa və ya a-da 10-dan azdırsa, "z və ya a 10-dan azdır" çap edilsin (or)
+    Əks halda, "Nə z, nə də a 10-dan azdır" çap edilsin.
+
+Task 3
+y dəyişəni 25-ə bərabərdirsə:
+    Əgər y 10-dan azdırsa, "y 10-dan azdır" çap edilsin.
+    y 10 ilə 20 arasındadırsa (10 daxil və 20 xaric), "y 10 ilə 20 arasında" çap edilsin.
+    Əgər y 20 ilə 30 arasındadırsa (20 daxil və 30 xaric), "y 20 ilə 30 arasında" çap edilsin.
+    Əks halda, "y 30 və ya daha böyük" çap edin.
