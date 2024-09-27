@@ -1,0 +1,26 @@
+# name = input("Adınızı qeyd edin: ")
+# age = int(input("Yaşnızı qeyd edin: "))
+# age1 = age
+
+# if age1 >= 18:
+#     print("Siz seçkilərdə iştirak edə bilərsiniz!")
+# else:
+#     print("Siz seçkilərdə iştirak edə bilməzsiniz!")
+
+
+
+
+# defuser = "aydan13"
+# defpassword = "aydan12345"
+
+# user_input = input("User-ni daxil et: ")
+# pass_input = input("Shifreni daxil et: ")
+
+# if ((defuser == user_input) and (defpassword == pass_input)): #and
+#     print("Welcome!")
+# elif ((defuser != user_input) and (defpassword == pass_input)):
+#     print("Siz istifadeci adini sehv yazmisiz!")
+# elif ((defuser == user_input) and (defpassword != pass_input)):
+#     print("Siz shifreni sehv yazmisiz!")
+# else:
+#     print("Bele bir istifadeci movcud deyil!")

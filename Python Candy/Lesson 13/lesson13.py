@@ -2,13 +2,7 @@
 # name = input("Adınızı qeyd edin: ")
 # age = int(input("Yaşınızı qeyd edin: "))
 
-# if age >= 18:
-#     print(f"{name}, siz seçkilərdə iştirak edə bilərsiz!")
-# elif age < 18:
-#     print(f"{name}, siz seçkilərdə iştirak edə bilməzsiniz!")
-# else:
-#     print(f"{name}, siz xarici vətəndaşsınız!")
-# #Task1 
+
 
 user = "bxsly23"
 password = "12345"

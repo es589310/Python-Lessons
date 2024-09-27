@@ -5,8 +5,8 @@ Tələbə: Rəhilə
 2. 13 Sentyabr -> ❌ -> 14 Sentyabr -> ✅
 3. 18 Sentyabr -> ✅
 4. 20 Sentyabr -> ✅
-5. 23 Sentyabr
-6. 27 Sentyabr
+5. 23 Sentyabr -> ✅
+6. 27 Sentyabr -> ❌ -> 28 Sentyabr
 7. 30 Sentyabr
 8.  4 Oktyabr
 
