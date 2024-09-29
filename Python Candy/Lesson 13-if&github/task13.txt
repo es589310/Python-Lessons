@@ -1,0 +1,22 @@
+Task1 
+# if age >= 18:
+#     print(f"{name}, siz seçkilərdə iştirak edə bilərsiz!")
+# elif age < 18:
+#     print(f"{name}, siz seçkilərdə iştirak edə bilməzsiniz!")
+# else:
+#     print(f"{name}, siz xarici vətəndaşsınız!")
+
+Xarici vətəndaşı çap etmək üçün məntiq qurun.
+
+
+Task2
+Fənn üzrə bal və onun hərf qarşılığı(else içində 2 şərt qoş)
+terminalda hər hansı bir 1-100 arası rəqəm yazmasını istə 
+1-> 100 arası balları hərf notu ilə qarşılaşdır
+
+
+Task3
+user/password əməliyyatı
+iki variable ver və dəyərlərini statik olaraq təyin et
+terminalda user və passwordu soruşsun
+şərt qoşaraq mənitiqi ardıcıllığı düzün 
