@@ -1,0 +1,27 @@
+List Type
+Sort metodu
+1) ballar = [85, 92, 78, 90, 88, 76, 95, 89, 91]
+    -ballar dəyişənini sort ilə azalandan artana dəyişin
+        -(0)-cı və (-1)-ci indekslərini çap edin
+    -ballar dəyişənini sort ilə artandan azalana dəyişin
+        -(0)-cı və (-1)-ci indekslərini çap edin
+
+Join Metodu
+2) adlar = ["Əli", "Ayşən", "Mahmud", "Hüseyn", "Fatimə", "Həsən"]
+    -adları vergüllə birləşdirin
+        -yeni dəyişən = string ifadədə vergül, nöqtə,birləşdirmə metodu, case və içində yuxarıdaki dəyişən
+
+    -adları "və" ilə birləşdirin
+    join() metodundan istifadə edərək adları son iki ad arasında "və" ilə birləşdirin. 
+    İpucu: Son iki adı ayırmaq üçün siyahının [:-1] və [-1] dilimləmə üsullarından istifadə edə bilərsiniz.
+
+Tuple Type
+3) "adam" variable yaradın
+    -içində tuple tipindən, ad, soyad , yaş və harada işlədiyini qeyd edin
+"ad" variable içində "adam" dəyişəninin 0-cı indeksini;
+"soyad" variable içində "adam" dəyişəninin 1-ci indeksini;
+"yaş" variable içində "adam" dəyişəninin 2-ci indeksini;  
+"ish_yeri" variable içində "adam" dəyişəninin 3-cü indeksini əlavə edin
+sonda hamısını bir variable-ə bərabər edib çap edin
+
+Not: Random dəyərləri imput elə edə bilsən et

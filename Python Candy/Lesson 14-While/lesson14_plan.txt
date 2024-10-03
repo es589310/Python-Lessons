@@ -1,0 +1,30 @@
+WHILE
+
+struktur:
+dövr dəyişəni
+vhile (məntiq cümləsi)
+(aralıq) ediləcək əməliyyat
+            artırma əməliyyatı
+
+while True:
+    print(1)
+
+1)
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+
+
+
+i=0
+while(i<10):
+    print("i-nin dəyəri - ", i) 
+    #tək bu vəziyyətdə run versək, bu əməliyyat statik olaraq davamlı true olacaq və dövrə girməyəcək
+    #bunun üçün dəyəri artırmalıyıq
+    i = i + 1 #i+=1 
+    #10-a qədər dəyərləri dövr edir və qeyd edir
+
+break dövr içində verilsə dövrü sonlandırır
+

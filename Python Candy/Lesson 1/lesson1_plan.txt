@@ -1,0 +1,58 @@
+1.Python haqqında ümumi məlumat
+2.Digər dillər və python 
+3.Video rolik
+4.Kompüterə VSCode, Python yüklənilməsi
+5.İlk kodumuz
+6.GitHub hesabı açmaq və onu vscode yerləşdirmək haqqında məlumat
+
+
+
+---------------------------------------------------
+1.Python haqqında ümumi məlumat
+Guido van Rossom ve komediya qrupu Monty Python 
+Python, yüksek seviyeli bir programlama dilidir ve genellikle okunabilir ve anlaşılabilir sözdizimiyle tanınır. Basit ve etkili bir şekilde kod yazmayı sağlayan dinamik bir dil olarak bilinir. Python'un kullanım alanları oldukça geniştir: web geliştirme, veri analizi, yapay zeka, bilimsel hesaplama, otomasyon ve daha pek çok alanda kullanılır. Ayrıca geniş bir standart kütüphane içerir ve birçok üçüncü taraf kütüphane ve framework desteği bulunur, bu da geliştirme süreçlerini hızlandırır.
+Kimlər işlədə bilər
+    -Software Engineers , Riyaziyyat, Data Analysts, Scientists(Elm adamlari), 
+    -Maliyeciler, Network Enginers
+Haralarda işlənir
+    -Data Analizin, AI və MI (Machine İntelligence), Automation, Web Apps
+    -Mobil Apps, Desktop apps, Testing, Hacking
+2.Digər dillər və python
+
+3 Video rolik
+https://www.youtube.com/watch?v=cadjwJCwUks
+
+
+5.İlk kodumuz
+.py nədir və ilk kod sətri
+4. dırnaq məsələləri
+5. print daxilində - sep
+    #print("Salam gözəl",'insanlar!', sep='')# default dəyəri boşluqdur, 
+        #sep= olmadanda bir cümlə tam yazıla bilir və ya cümlənin nə ilə ayrılmasını 
+        #istəyirəmsə onunlada qeyd edə bilərəm;
+    #print("Salam gözəl",'insanlar!', sep=',', end='.') #end= cümlənin sonunu nə ilə 
+        #bitirməyi göstərir  sep= nələri print edəcəyiksə onları birbirindən nə ilə     
+        #ayırsın
+6. Variable-lar
+    -# _name= 'fff' alt xəttə olan dəyişən o deməkdiki, bu dəyişəni dəyişmək olmaz, bu kodu yazan koderə aid bir işarədir
+    -haqqında ümumi məlumat
+7. Value-lar
+8. #f-string
+    """name="Emin"
+    question="necəsiniz?"
+    print(f'Salam {name} müəllim',{question}) #f-string oduki stringin əvvəlinə f qoyuram, dəyişənə hər dəfə fərqli dəyər verərkən bizə kömək edir
+    """
+
+    """a= 5
+    b = 10
+    print(f"{a} + {b} = {a+b}")#belə yazmağda məqsəd içəridə olan həllərin açıq şəkildə necə getdiyini bildirmək"""
+
+    # enes = 23
+    # emin = 10
+
+    # print(f'{enes} ədədini {emin} ilə toplasaq, alınan cavab {emin + enes}-dür', end='.')#"""
+
+9. #format method/function = format metodu
+        # name="Emin"
+        # question = "necəsiniz?"
+        # print('Salam {0} müəllim {1}'.format(name,question)) # sırf stringə bağlıdır, indekslə yerinə qoymadır

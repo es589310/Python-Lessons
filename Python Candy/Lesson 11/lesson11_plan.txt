@@ -1,0 +1,10 @@
+Git Hub
+User account açmaq
+Visual Studio Code ilə layihələri calaşdırmaq
+terminalda:
+    -git init -> layiheni initializing edir
+    -git add . -> layiheni paketleyir
+    -git commit -m "Her hansi bir soz"
+    -git branch -M master
+    -git remote add origin https://github.com/es589310/Python-Lessons.git
+    -git push -u origin master

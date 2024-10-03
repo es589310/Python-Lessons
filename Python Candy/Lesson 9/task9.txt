@@ -1,0 +1,16 @@
+Task 1 (DICTIONARY-Lüğət)
+Dictionary əməliyyatları:
+Dictionary-a yeni elementlər əlavə edin
+Dictionary-ın bütün açar və ya dəyərlərinin siyahısı.
+Müəyyən bir açarla dəyəri yoxlayın və ya əldə edin.
+Lüğətin xüsusi açarını(key) və ya dəyərini(value) silin(internetdən araşdır)
+buradan araşdırma edərsiz
+https://www.w3schools.com/python/python_dictionaries.asp
+
+
+Task 2 (Settings)
+Set yaradılması
+Set elementlərin əlavə edilməsi
+Set ölçüsünü tapılması
+buradan araşdırma edərsiz
+https://www.w3schools.com/python/python_sets_methods.asp

@@ -1,0 +1,14 @@
+Task1
+İstifadəçidən rəqəm alın və həmin rəqəmi dəyişənə (number) təyin edin.
+Əvvəlcə num adlı dəyişən yaradın və bu dəyişənə 1 dəyəri təyin edin.
+While istifadə edərək, num-dan number kiçik və ya ona bərabər olduqda dövrəni davam etdirin.
+Döngü hər dəfə işlədikdə, number dəyişəninin cari dəyərini ekrana çap edin.
+Hər döngənin sonunda num 1 artırın.
+number dəyəri num-dan böyük olduqda, dövrə son qoyulmalıdır.
+
+Task2
+İstifadəçidən rəqəm alın və onu number adlı dəyişənə təyin edin.
+While yaradın və istifadəçi 0 rəqəmini daxil edənə qədər dövrə davam etsin (number != 0).
+Döngü daxilində istifadəçinin daxil etdiyi nömrəni çap edin (məsələn: "X daxil etdiniz").
+Hər dəfə istifadəçidən yeni rəqəm alın və onu number dəyişəninə təyin edin.
+İstifadəçi 0 daxil edərsə, dövrə bitəcək və "Son" çap edilecek.

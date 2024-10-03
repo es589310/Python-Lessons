@@ -1,0 +1,13 @@
+Task1
+user -> dict(1)
+İstifadəçi məlumatları olan lüğət yaradılsın. Bu lüğətdə istifadəçinin
+adı, yaşı, şəhəri və e-poçt ünvanı olsun
+info_message -> dict(2)
+Yuxarıdaki istifadəçi məlumatlarına daxil olarkən mesaj yaradılır. Bu mesajda istifadəçinin
+adı, yaşı, şəhəri və e-poçt ünvanı göstərilsin.
+
+2 ədəd dict() variable yaradılacaq, birincidə istifadəçi məlumatları,
+ikincidə istifadəçi məlumatlarının çapı, məs:
+{
+    f"Ad: {user['name']}\n"
+}

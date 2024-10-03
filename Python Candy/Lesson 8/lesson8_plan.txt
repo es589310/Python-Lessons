@@ -1,0 +1,14 @@
+Tuple-ı araşdırmaq
+
+Tuple 2 metodu var -> 
+#Count
+my_tuple = (1,2,3,4,5,6,71,2,3,4,5,7,1)
+print(my_tuple.count(71)) #71-dən neçə dənə olduğunu bildirir
+#Index
+print(my_tuple.index(71)) #71-in neçənci index-də olduğunu bildirir
+
+# Tuple içindəki min() və max() nümunə
+
+
+https://www.w3schools.com/python/python_tuples.asp
+
