@@ -1,0 +1,57 @@
+WHILE
+Task 1: while və break istifadə edin
+while daim doğru olmalıdır:
+    -istifadəçidən nömrə daxil etməyi xahiş edin (input ilə)
+    -istifadəçi 0 rəqəmini daxil etdikdə proqram və mesajı göstərməklə döngəni bitirəcək
+        -"Loop(döngə) dayandırıldı" desin
+        -Loop dayandırmaq üçün istifadə etdiyimiz sözü yazın 
+    -yazdığınız rəqəmin çapı üçün daxil etdiyiniz nömrəni çap edin
+
+Task 2: while ilə və continue
+dəyişən yaradın, onun 1-ə bərabər olmasını yazın
+while ilə 1-dən 5-ə qədər(5 daxil) rəqəmləri yoxlayan şərt qoyun
+    -proqram 3 rəqəminə çatdıqda, bu addımı atlayacaq və növbəti nömrəyə keçəcək
+        -hər dəfə 1 artırmalıyıqki proqram davam etsin
+        -3-ü görərkən onu göstərməməli digər rəqəmə keçməyi üçün uyğun olan söz(məntiq)
+    -while dan kənarda yaratdığınız dəyişəni çap edin
+    -və proqramın rəqəmlərinin davamlılığı bitənə qədər yenə hər dəfə 1 artırmalıyıqki
+
+FOR
+Task 3: for
+Bu sətirdə "numbers" adlı siyahı müəyyən edilir və o, 2, 4, 6, 8, 10 rəqəmləri içində olur
+"total" adlı dəyişən müəyyən edilir və ilkin qiymət kimi 0 təyin edilir. Bu dəyişən siyahının elementlərinin cəmini saxlayacaq.
+
+Bu sətirdə ədədlər siyahısındakı hər bir element üçün dövrə yaradılır. Hər bir döngə addımında nömrə dəyişəni siyahının hər bir elementini növbə ilə təmsil edəcək
+    -döngənin hər addımında ədəd dəyişəninin dəyəri ümumi dəyişənə əlavə edilir. Başqa sözlə, ilkin olaraq 0-a bərabər olan dəyişən hər addımda siyahının elementləri ilə yenilənir.
+
+Sonda dövrə tamamlandıqdan sonra siyahının bütün elementlərinin cəmi içində olan ümumi dəyişənin qiyməti ekranda çap olunur.
+
+
+Task 4: for ilə kvadrat hesablama
+For döngüsü içində range(1,23) müəyyən edin
+    -kvadrat dəyişəni yaradıb, for-da yaratdığınız dəyişəni bir birinə vurun
+    -for-da yaratdığınız dəyişəni çap edin
+for i in range(1, 11):
+    kare = i * i
+    print(f"{i} sayısının karesi: {kare}")
+
+
+Analiz tipli
+1)
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits if "a" in x] #əgər x-da a varsa fruits-də x üçün x-a ötür
+
+
+print(newlist)
+
+2)
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits if x != "apple"]
+
+3)
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits]
+

@@ -1,0 +1,93 @@
+while-continue
+# i = 1
+# while i <= 5:
+#     if i == 3:
+#         i += 1
+#         continue
+#     print(f"Sayı: {i}")
+#     i += 1
+
+
+FOR
+"""
+tiplerle iş görür:
+String, List, tuple, setting
+"""
+# iterable = "emin" #String
+
+# for item in iterable: #nümunədə obyekt üçün
+#     print(item)
+
+# fruits = ["alma","alça","Qarpız","banan"] # list
+# meyve = "ALMA" # string
+
+# for fruit in meyve:
+#     print(fruit)
+
+# for i in range(23):
+#     print(i)
+
+# for i in "banan":
+#     print(i)
+
+
+"""
+numbers = [2,4,6,8,10] #A4 kağız içində rəqəmlər və onun cəmini
+total = 0 # əlavə A4 kağızı
+# qələm for döngüsü əməliyyatı
+
+for number in numbers: #1 ci vərəqimdə olan rəqəmləri köçür 2 ci vərəqimə
+    total = total + number
+#1 ci: 2, 4
+    '''
+    0 = 0 + 2 = 2 =total
+    2 = 2 + 4 = 6 =total
+    6 = 6 + 6 = 12 = total
+    12 = 12 + 8 = 20 = total
+    20 = 20 + 10 = 30 = total 
+    '''
+
+print("siyahının bütün elementlərinin cəmi",total)
+"""
+
+#Len 
+# # fruit = ["apple","banan", "cherry"]
+# fruit = "apple"
+# for i in range(len(fruit)):
+#     print(fruit[i])
+
+# my_list = ["alma","alça","Qarpız","banan"]
+# for i in range(len(my_list)):
+#     print(i)
+#len daima=default olaraq int qaytarir 
+
+
+
+
+
+
+məntiq
+# a = (3)
+# b = (2)
+# c = a * b 
+# print(c)
+
+Append ilə
+list_1 = ["a","b","c"]
+list_2 = [1,2,3]
+# list_3 = list_1 * list_2
+# print(list_3)
+for x in list_2:
+    list_1.append(x)
+    print(list_1)
+
+
+
+# fruit = ["apple","banan", "cherry"]
+
+# [print(x) for x in fruit] # eyni setirde ve sadeleshdirmek
+# #fruit-in ichindek x uchun x-i chap et
+
+
+# combined_list = [str(x) + str(y) for x, y in zip(list_1, list_2)]
+# print(combined_list)

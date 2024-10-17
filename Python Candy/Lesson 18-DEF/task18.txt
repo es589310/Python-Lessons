@@ -1,0 +1,45 @@
+Task 1
+def product_info(**kwargs):
+    # Məhsul Məlumatlarını(product_info) ekrana çap edin
+    pass
+
+product_info(name="Telefon", price=5000, category="Elektronik", stock_status=True)
+1. Məhsul Məlumatları:
+Məhsulun Adı: Telefon
+Məhsul Qiyməti: 500 azn.
+Kategoriya: Elektronika
+Anbar Durumu: Mövcuddur
+
+product_info(name="Kitap", price=50)
+1. Məhsul Məlumatları:
+Məhsulun Adı: Kitab
+Məhsul Qiyməti: 50 azn.
+Kategoriya: Bilinmir
+Anbar Durumu: Bilinmir
+
+-------------------------------------------------------------------------------------------
+Alqoritm və ya problemin həlli tapşırığları
+Task 2
+def vurma(a, b):
+    # Kodunuzu bura yazın
+    pass
+
+
+vurma(4, 5)   # 20 çap etməli
+vurma(4, 0)   # "Nəticə 0 olur" mesajını çap etsin
+
+Bu funksiya verilmiş iki ədədin hasilini hesablasın,lakin ədədlərdən biri 0 olarsa, 
+vurma etmədən “Məhsul 0 olur” mesajını çap etsin və proqramdan çıxsın.
+-------------------------------------------------------------------------------------
+Task 3
+def is_polindrome(word):
+    # Kodunuzu bura yazın
+    pass
+
+
+is_polindrome("ana")  # True qaytarmalı
+is_polindrome("ordu")  # False qaytarmalı
+
+Bu funksiya verilmiş sözün palindrom olub olmadığını yoxlayır və nəticəni qaytarır.
+
+

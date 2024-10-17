@@ -1,0 +1,73 @@
+
+Task 1
+Fibonacci Sequence (While Loop):
+İstifadəçidən nömrə alın və while dövrəsindən istifadə edərək Fibonaççi ardıcıllığını
+həmin nömrəyə qədər çap edin. Fibonaççi ardıcıllığı belədir: 0, 1, 1, 2, 3, 5, 8, 13...
+
+Task 2
+Vurma Cədvəli (For Loop):
+For döngəsindən istifadə edərək 1-dən 10-a qədər vurma cədvəlini çap edin.
+
+Task 3
+Tək və Cüt ədədlər (For və While):
+1-dən 100-ə qədər rəqəmlər üçün:
+
+For döngəsindən istifadə edərək ekrana tək nömrələri çap edin.
+While döngəsindən istifadə edərək cüt ədədləri ekrana çap edin.
+
+4)
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in range(10)]
+
+5)
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in range(10) if x < 5]
+
+6)
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x.upper() for x in fruits]
+
+7)
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = ['hello' for x in fruits]
+
+8)
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x if x != "banana" else "orange" for x in fruits]
+
+
+
+# İstifadəçidən nömrə alaq
+n = int(input("Bir nömrə daxil edin: "))
+
+# Fibonacci ardıcıllığını hesablama
+a, b = 0, 1
+while a <= n:
+    print(a, end=" ")
+    a, b = b, a + b
+
+
+# For döngəsindən istifadə edərək vurma cədvəlini çap edin
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(f"{i} * {j} = {i * j}")
+    print()  # Hər sətirdən sonra boş sətir əlavə edin
+
+
+# For döngəsindən istifadə edərək tək nömrələri çap edin
+print("Tək ədədlər:")
+for num in range(1, 101, 2):
+    print(num, end=" ")
+
+
+# While döngəsindən istifadə edərək cüt nömrələri çap edin
+print("\n\nCüt ədədlər:")
+num = 2
+while num <= 100:
+    print(num, end=" ")
+    num += 2

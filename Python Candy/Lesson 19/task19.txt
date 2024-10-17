@@ -1,0 +1,1 @@
+Iki ədəd class yaradın, User məlumatları classı və Payment(ödəniş) class yaradın 
